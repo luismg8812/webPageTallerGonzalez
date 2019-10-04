@@ -19,13 +19,14 @@ body{
  content: '';
  height: 100vh;
  width: 100%;
- background-image: url(../img/Sitio_en_Construcción.png);
+ background-image: url(../img/header_bg.jpg);
  background-size: cover;
  background-repeat: no-repeat;
  background-position: center;
  display: block;
- 
- 
+ filter: blur(10px);
+ -webkit-filter: blur(10px);
+ transition: all 1000ms;
 }
 
 
